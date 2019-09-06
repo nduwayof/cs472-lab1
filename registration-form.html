@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CS472 || ABOUT ME</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/registration-form.css">
+
+</head>
+<body>
+<div class="content">
+    <nav>
+        <div class="inline heading">
+            <h2>Workshop Registration</h2>
+        </div>
+        <div class="inline action">
+            <form>
+                <label>More Action</label>
+                <select class="action-select">
+                    <option>-</option>
+                </select>
+            </form>
+        </div>
+    </nav>
+    <p class="aligned" >Register now while seats are available</p>
+    <form>
+        <div class="row">
+
+            <div class="column-6">
+                <div class="form-control">
+                    <label class="form-label" for ="firstName">First Name <span class="required"> * </span></label>
+                    <input class="form-input" type="text" name="firstName" id="firstName">
+                </div>
+                <div class="form-control">
+                    <label class="form-label" for ="lastName">Last Name <span class="required"> * </span></label>
+                    <input class="form-input" type="text" name="lastName" id="lastName">
+                </div>
+                <div class="form-control">
+                    <label class="form-label" for ="company">Company/Institution <span class="required"> * </span></label>
+                    <input class="form-input" type="text" name="company" id="company">
+                </div>
+                <div class="form-control">
+                    <label class="form-label" for ="address">Address <span class="required"> * </span></label>
+                    <textarea class="form-input" name="address" rows="5" id="address"></textarea>
+                </div>
+                <div class="form-control">
+                    <label class="form-label" for ="city">City </label>
+                    <input class="form-input" type="text" name="city" id="city">
+                </div>
+                <div class="form-control">
+                    <label class="form-label" for ="state">State/Province/Region</label>
+                    <select class="form-input form-select"  name="state" id="state">
+                        <option value="" > -Select- </option>
+                        <option value="IA">Iowa</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label class="form-label" for ="country">Country</label>
+                    <select class="form-input"  name="country" id="country">
+                        <option value="" > -Select- </option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label class="form-label" for ="email">Email </label>
+                    <input class="form-input" type="email" name="email" id="email">
+                </div>
+                <div class="form-control">
+                    <label class="form-label" for ="phoneNumber">Phone Number </label>
+                    <input class="form-input" type="text" name="phoneNumber" id="phoneNumber">
+                </div>
+            </div>
+            <div class="column-6">
+                <p class="aligned">Lunch</p>
+                <div class="form-control">
+                    <label class="form-label" for ="mealPreference">Meal Preference</label>
+                    <select class="form-input"  name="mealPreference" id="mealPreference">
+                        <option value = "vegiterian" >Vegiterian</option>
+                    </select>
+                </div>
+                <p class="aligned">Payment Details</p>
+                <div class="form-control">
+                    <label class="form-label">Payment Mode</label>
+                    <div class="radio-options">
+                        <label class="label-radio" ><input class="form-radio" type="checkbox" name="paymentMode" value="cash">Cash</label>
+                        <label class="label-radio"><input class="form-radio" type="checkbox" name="paymentMode" value="cheque" >Cheque</label>
+                        <label class="label-radio"><input class="form-radio" type="checkbox" name="paymentMode" value="demandDraft">Demand Draft</label>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label class="form-label" for ="chequeNo">DD /Cheque No </label>
+                    <input class="form-input" type="text" name="phoneNumber" id="chequeNo">
+                </div>
+                <div class="form-control">
+                    <label class="form-label" for ="drawnOn">Drawn On(Bank Name) </label>
+                    <input class="form-input" type="text" name="drawnOn" id="drawnOn">
+                </div>
+                <div class="form-control">
+                    <label class="form-label" for ="payableAt">Payable at </label>
+                    <input class="form-input" type="text" name="payableAt" id="payableAt">
+                </div>
+            </div>
+        </div>
+
+        <div class="highlighted">
+            <input type="submit" class="btn" value="Submit">
+            <input type = "Reset" class= "btn" value="Reset" >
+        </div>
+    </form>
+
+
+</div>
+<div>
+    <a href="https://validator.w3.org/check/referer">  <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/></a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png" alt="css validator" /></a>
+</div>
+</body>
+</html>
+
