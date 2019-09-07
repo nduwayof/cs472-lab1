@@ -196,7 +196,3 @@ console.log(
     })
 );
 
-function test() {
-    let test = document.getElementById('test');
-    alert(test.value());
-}
