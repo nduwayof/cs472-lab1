@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c2eebc6-2c0c-4a46-a2d4-a4245cde0564" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lab-8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -78,7 +82,7 @@
       <workItem from="1567869271538" duration="19000" />
       <workItem from="1567869469413" duration="1151000" />
       <workItem from="1567952954286" duration="4456000" />
-      <workItem from="1568134446573" duration="2666000" />
+      <workItem from="1568134446573" duration="3856000" />
     </task>
     <servers />
   </component>
